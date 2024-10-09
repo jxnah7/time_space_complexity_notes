@@ -1,0 +1,36 @@
+The following topics describe how
+    the time it takes to run your function
+    grows
+    as the size of your input (to your function)grows
+
+
+when asked, "how long does it take to run this function?"
+    consider
+        how fast is your computer?
+        are you running other programs at the same time?
+        which language are you using?
+
+so instead you should ask, 
+    how does the runtime of this function grow as the size of the input grows
+
+to answer this question we use a pair of tools called
+    big O notation and Time complexity
+
+
+time complexity = a way of showing how the runtime 
+                  of a function increases as the size
+                  of the input increases
+
+linear time = straight line diagonal,  as input grows, time grows
+constant time = straight horizontal line, as input grows, time does not
+quadratic time = curving up, as input grows, time grows exponentially
+
+people dont like expressing time complexity this way for some reason 
+so thats why we have big O notation
+
+n is usually the size of the input
+
+linear time = O(n)
+constant time = O(1)
+quadratic time = O(n^2)
+
